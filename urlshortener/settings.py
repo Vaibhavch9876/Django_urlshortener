@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'iw=#6*5&1f#)#v#^)-r)!prq7dpsku96(w#fi91t=r)d!2e73x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['urlshortener-vc.herokuapp.com']
 
 
 # Application definition
